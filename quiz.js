@@ -89,8 +89,9 @@ function renderProgress() {
   for (var q = 0; q < questions.length; q++) {
     //return the innerHTML property
     progress.innerHTML += "<div class='prog' id=" + q + "></div>";
+    console.log(progress);
     //I was trying to use appendChild but I couldn't make it work
-    //renderProgress.appendChild(questions);
+    //progress.appendChild("#progress");
   }
 }
 
